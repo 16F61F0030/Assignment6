@@ -1,7 +1,7 @@
 header{
   text-align: center;
-  color: #fdc;
-  background: #B90FD8;
+  color: #fff;
+  background: grey;
   padding:1%;
   margin: 0%;
   width: 100%;
@@ -9,12 +9,12 @@ header{
 .btn1{
   font-weight: 550;
   display: block;
-  background:#4754DE;
+  background:grey;
   color: #fff;
   padding: 1%;
   margin-top:2%;
   margin-left: auto;
-  border: 1px solid #4754DE;
+  border: 1px solid grey;
 border-radius: 5px;
 }
 .parent{
@@ -30,7 +30,7 @@ width: 800px;
   width: 31.3%;
   text-align: center;
   padding: 1%;
-box-shadow: 3px 3px 3px #ddd;
+box-shadow: 3px 3px 3px grey;
 }
 img{
   width: 200px;
@@ -50,22 +50,11 @@ border-radius: 5px;
 .pin2{
   width: 100px;
 }
-@media only screen and (min-width:320px) and (max-width:767px){
-  .parent{
-
-    background: #fff;
-    margin: 1% auto;
-    display: flex;
-    flex-direction:column;
-    justify-content: center;
-  width:100%;
-  }
-  .parent>div{
-    width: 98%;
-    text-align: center;
-    padding: 1%;
-  box-shadow: 3px 3px 3px #ddd;
-  }
+h4{
+  color: green;
+}
+h3{
+  color: grey;
 }
 
 @media only screen and (min-width:320px) and (max-width:767px){
